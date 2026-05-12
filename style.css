@@ -1,0 +1,28 @@
+body {
+  background: #0a0a0a;
+  color: #00ff88;
+  font-family: monospace;
+}
+
+a {
+  color: #66ccff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.grid div {
+  width: 80px;
+  height: 80px;
+  background: #111;
+  border: 1px solid #00ff88;
+}
+
+.glitch {
+  background: #ff0033;
+  opacity: 0.6;
+}
