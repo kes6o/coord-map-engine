@@ -1,0 +1,22 @@
+<h1>SYSTEM TERMINAL</h1>
+
+<p>Enter coordinate sequence:</p>
+
+<input id="input" placeholder="X Y Z">
+<button onclick="check()">EXECUTE</button>
+
+<p id="out"></p>
+
+<script>
+function check(){
+  let v = document.getElementById("input").value;
+
+  if(v === "52 64 0"){
+    document.getElementById("out").innerHTML =
+    "SCAN COMPLETE: NODE UNLOCKED";
+  } else {
+    document.getElementById("out").innerHTML =
+    "NO VALID MATCH FOUND";
+  }
+}
+</script>
